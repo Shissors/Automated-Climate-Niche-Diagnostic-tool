@@ -42,12 +42,22 @@ Check the Output
 ## Output Plots
 
 
-![The Read Depth Plot, showing the Position of Sequence (POS) on X axis and Read Depth (DP) on the Y axis, higher depth -> better coverage -> better quality](https://github.com/Shissors/Varaint-Calling-Pipeline/blob/main/read_depth.png)
+![Thermal lag](https://github.com/Shissors/Automated-Climate-Niche-Diagnostic-tool/blob/main/TL.png)
 
-The Read Depth Plot, showing the Position of Sequence (POS) on X axis and Read Depth (DP) on the Y axis, higher depth -> better coverage -> better quality
+Thermal Lag Plot, shows the occurences of tigers at this temperature (max avg temperature) based on past and present observations. The change in density means that the tigers at present are found at higher temperature regions.
 
-![The variant plot, shows SNPs and INDELs along the genome. The quality on the Y axis and POS on the X axis. Higher quality -> More reliable result](https://github.com/Shissors/Varaint-Calling-Pipeline/blob/main/variant.png)
+![Precipitation lag](https://github.com/Shissors/Automated-Climate-Niche-Diagnostic-tool/blob/main/AL.png)
+
+Precipitation Lag Plot, shows the occureneces of tigers at locations with annual rainfall (avg annual rainfall) based on past and present observations. The change in density indicates their movement to more drier regions.
+
+![KDL](https://github.com/Shissors/Automated-Climate-Niche-Diagnostic-tool/blob/main/KDL.png)
+
+Kernel Density Map, shows the relationship between max temp and annual rainfall. The clusters show occurences of tigers at that temperature and rainfall. They occupied two different climatic niches. 
+
+![MAP](https://github.com/Shissors/Automated-Climate-Niche-Diagnostic-tool/blob/main/newplot%20(1).png)
+
+Geographical Temporal map showing the distribution of Tiger occurences and the max annual temperature at that region where the observeances were recorded. 
 
 
-The variant plot, shows SNPs and INDELs along the genome. The quality on the Y axis and POS on the X axis. Higher quality -> More reliable result
+
 
