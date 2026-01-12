@@ -58,6 +58,16 @@ Kernel Density Map, shows the relationship between max temp and annual rainfall.
 
 Geographical Temporal map showing the distribution of Tiger occurences and the max annual temperature at that region where the observeances were recorded. 
 
+![Frag](https://github.com/Shissors/Automated-Climate-Niche-Diagnostic-tool/blob/main/dist.png)
 
+Habitat Fragmentation map, shows the observations and the average distances between those observations. There is a slight increase in 2023 despite the number of observations being low. Shows that the populations might be undergoing isolation
 
+## Why did I make this?
+1. Just for the sake of making it, it was something to do.
+2. I wanted to make a pipeline for conservation organizations to collect data and essentially showcase to policy makers to aid in decision making. This could help them.
+
+## Future Directions
+1. I should add more options to the calc metrics and in the end get a pdf file generated with the plots.
+2. Make this into a pipeline.
+3. I wanna use AI in this (something with the Gemini API) that reads the plots and generates text and conclusions and puts it into the pdf.
 
