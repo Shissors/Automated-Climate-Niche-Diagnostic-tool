@@ -1,0 +1,22 @@
+input_path: "/envidatS3paths.txt"
+output_dir: "/Output/chelsea" #directory for the chelsea raw data
+log_dir: "/chelsea_processing.log"
+target_period: "1981-2010"
+final_dataframe_path: "climate_occurence.parquet"
+final_dataframe_path_tsv: "Output/climate_occurence.tsv"
+
+environmental_variables:
+  include_variables:
+    bio1: false   # Annual Mean Temperature
+    bio5: true    # Max Temperature of Warmest Month
+    bio6: false   # Min Temperature of Coldest Month
+    bio12: true   # Annual Precipitation
+    bio15: false  # Precipitation Seasonality
+
+  # Define the mapping for "Science Names" (optional but good for clean plots)
+  variable_names:
+    bio1: "mean_temp"
+    bio5: "max_temp"
+    bio6: "min_temp"
+    bio12: "annual_precipitation"
+    bio15: "precip_seasonality"

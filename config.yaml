@@ -1,0 +1,16 @@
+species: "Panthera Tigris"
+input_path: "/0002913-260108223611665.zip"
+output_dir: "Output/processed_gbif.parquet"
+log_dir: "Output/gbif_processing.log"
+
+filters:
+  max_coordinate_uncertainty: 10000
+  min_year: 1990
+  allowed_basis_of_record:
+    HUMAN_OBSERVATION: true
+    PRESERVED_SPECIMEN: true
+    OBSERVATION: true
+    MACHINE_OBSERVATION: true
+    FOSSIL_SPECIMEN: false     
+    LIVING_SPECIMEN: false        
+    MATERIAL_SAMPLE: false
