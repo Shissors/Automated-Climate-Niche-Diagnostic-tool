@@ -6,15 +6,11 @@ A series of tools that combines occurence and climate data to calculate Useful m
 
 Before starting the program, you would need the following packages installed: Pandas, yaml,xarray, rioxarray, seaborn, matplotlib, plotly express, Scikit learn, scipy.
 
-### The packages can be installed from here using pip or using singularity
+### The packages can be installed from here using pip
 
-If using pip
+ using pip
 ```
 pip install -r requirements.txt
-```
-Using Singularity with the AMCN.def
-```
-sudo singularity build AMCN.sif AMCN.def
 ```
 
 You would also require a a GBIF occurence file that you get [here](https://www.gbif.org/) and CHELSEA climate data which you get [here](https://www.chelsa-climate.org/)
