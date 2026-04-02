@@ -1,1 +1,20 @@
 
+# Data I/O
+pandas>=2.0
+PyYAML>=6.0
+
+# Numerical / scientific
+numpy
+scipy>=1.10
+
+# Geospatial / raster
+xarray>=2023.1
+rioxarray>=0.15
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.0
+
+# Machine learning
+scikit-learn>=1.3
